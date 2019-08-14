@@ -10,7 +10,6 @@ android {
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
     buildTypes {
@@ -25,8 +24,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
-
     api "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     api 'androidx.appcompat:appcompat:1.0.2'
     api 'androidx.core:core-ktx:1.0.2'
@@ -36,9 +33,4 @@ dependencies {
     // Dynamic Deliveryをご利用の場合、Base Module内に下記依存関係の追加が必要です
     // see: https://h.s64.jp/entry/android_dynamic_feature_module_gradle_play-services-ads_error
     api 'com.google.android.gms:play-services-basement:16.0.1'
-
-    testImplementation 'junit:junit:4.12'
-
-    androidTestImplementation 'androidx.test:runner:1.2.0'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
 }

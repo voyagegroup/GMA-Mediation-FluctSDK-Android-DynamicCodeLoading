@@ -10,10 +10,15 @@ android {
         versionCode 1
         versionName "1.0"
     }
+
+    release {
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
 
     implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"

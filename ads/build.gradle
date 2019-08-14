@@ -3,27 +3,37 @@ apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
+
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
     }
+
+    release {
+        minifyEnabled false
+        proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+    }
+
 }
 
 repositories {
     google()
     jcenter()
+
+    // region FluctSDK
     maven { url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/' }
+    // endregion
+
+    // region FluctSDK Mediation
     maven { url "https://imobile-maio.github.io/maven" }
     maven { url 'https://adcolony.bintray.com/AdColony' }
+    // endregion
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
-
-    // NOTE: `play-services-base` are located at `:app` module.
 
     // region GMA SDK
     implementation 'com.google.android.gms:play-services-ads:16.0.0'
