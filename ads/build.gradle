@@ -2,22 +2,35 @@ apply plugin: 'com.android.dynamic-feature'
 
 android {
     compileSdkVersion 28
-    
-
-
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
-
-
     }
+}
 
-
+repositories {
+    google()
+    jcenter()
+    maven { url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/' }
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
+
+    // region GMA SDK
+    implementation 'com.google.android.gms:play-services-ads:16.0.0'
+    // endregion
+
+    // region FluctSDK
+    implementation 'jp.fluct:FluctSDK:5.6.0'
+    implementation 'com.google.android.gms:play-services-base:16.0.1'
+    implementation 'com.google.android.gms:play-services-ads-identifier:16.0.0'
+    // endregion
+
+    // region FluctSDK GMA Mediation
+    implementation 'jp.fluct.mediation.gma:gma-mediation:1.2.0'
+    // endregion
 }
