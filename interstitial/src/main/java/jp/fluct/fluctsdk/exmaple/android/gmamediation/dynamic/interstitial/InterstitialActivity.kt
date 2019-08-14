@@ -14,7 +14,7 @@ class InterstitialActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.interstitial.R.layout.interstitial_activity)
+        setContentView(R.layout.interstitial_activity)
     }
 
 }
