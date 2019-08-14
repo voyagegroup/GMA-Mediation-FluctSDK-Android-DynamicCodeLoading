@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">GMA-Mediation-FluctSDK-Android-DynamicCodeLoading</string>
     <string name="title_interstitial">Interstitial Module</string>
+    <string name="title_ads">Ads Module</string>
 </resources>

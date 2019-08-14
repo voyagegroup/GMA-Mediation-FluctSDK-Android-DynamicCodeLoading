@@ -1,1 +1,1 @@
-include ':app', ':interstitial'
+include ':app', ':interstitial', ':ads'
