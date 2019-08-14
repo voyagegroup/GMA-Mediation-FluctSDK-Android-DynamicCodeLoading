@@ -15,4 +15,6 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':app')
+
+    implementation "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
 }
