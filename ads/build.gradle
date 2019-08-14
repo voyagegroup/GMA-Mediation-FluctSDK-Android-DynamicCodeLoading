@@ -15,6 +15,8 @@ repositories {
     google()
     jcenter()
     maven { url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/' }
+    maven { url "https://imobile-maio.github.io/maven" }
+    maven { url 'https://adcolony.bintray.com/AdColony' }
 }
 
 dependencies {
@@ -34,5 +36,14 @@ dependencies {
 
     // region FluctSDK GMA Mediation
     implementation 'jp.fluct.mediation.gma:gma-mediation:1.2.0'
+    // endregion
+
+    // region FluctSDK Mediations
+    implementation 'com.maio:android-sdk:1.1.8'
+    implementation 'com.unity3d.ads:unity-ads:3.1.0'
+    implementation 'com.adcolony:sdk:3.3.7'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.6.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.6.0'
+    implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.6.0'
     // endregion
 }
