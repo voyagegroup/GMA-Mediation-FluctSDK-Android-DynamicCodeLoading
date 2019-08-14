@@ -33,6 +33,8 @@ dependencies {
 
     api "com.google.android.play:core:1.6.1"
 
+    // Dynamic Deliveryをご利用の場合、Base Module内に下記依存関係の追加が必要です
+    // see: https://h.s64.jp/entry/android_dynamic_feature_module_gradle_play-services-ads_error
     api 'com.google.android.gms:play-services-basement:16.0.1'
 
     testImplementation 'junit:junit:4.12'
