@@ -10,5 +10,14 @@
         <dist:fusing dist:include="true"/>
     </dist:module>
 
-</manifest>
+    <application>
 
+        <activity android:name=".InterstitialActivity"/>
+
+        <activity-alias
+                android:name="jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.InterstitialActivityAlias"
+                android:targetActivity=".InterstitialActivity" />
+
+    </application>
+
+</manifest>
