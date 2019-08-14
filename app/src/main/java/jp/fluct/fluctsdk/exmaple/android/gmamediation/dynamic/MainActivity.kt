@@ -48,8 +48,9 @@ class MainActivity : AppCompatActivity() {
         }
 
         launchInterstitial.setOnClickListener {
-            Intent(this, InterstitialActivityAlias::class.java)
-                .let { startActivity(it) }
+            startActivity(
+                Intent(this, InterstitialActivityAlias::class.java)
+            )
         }
 
         refreshStatus()
