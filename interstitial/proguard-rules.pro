@@ -1,0 +1,1 @@
+-keepnames class jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.interstitial.InterstitialActivity
