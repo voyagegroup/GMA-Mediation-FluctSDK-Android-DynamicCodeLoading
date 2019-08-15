@@ -1,6 +1,6 @@
 # GMA-Mediation-FluctSDK-Android-DynamicCodeLoading
 
-Dynamic Deliveryを用いたアプリにおけるGoogle Mobile AdsによるFluctSDKメディエーションのサンプル実装です。
+Dynamic Deliveryによるマルチモジュール構成のアプリにおけるGoogle Mobile AdsによるFluctSDKメディエーションのサンプル実装です。
 
 ## 動作検証環境
 
