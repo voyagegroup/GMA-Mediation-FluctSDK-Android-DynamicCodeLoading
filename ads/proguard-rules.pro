@@ -1,3 +1,7 @@
+# region project-depends
+-keep class jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.ads.MyInterstitialAdLogic { *; }
+# endregion
+
 # region FluctSDK動画リワード / インタースティシャル
 -keep class jp.fluct.mediation.** { *; }
 

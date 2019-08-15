@@ -7,7 +7,7 @@ import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.InterstitialAd
 import jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.IInterstitialAdLogic
 
-object MyInterstitialAdLogic : IInterstitialAdLogic{
+object MyInterstitialAdLogic : IInterstitialAdLogic {
 
     private const val GMA_AD_UNIT_ID
             = "/62532913/a_fluct.test_1024x768_chocovayashitest.interstitial_11940"
