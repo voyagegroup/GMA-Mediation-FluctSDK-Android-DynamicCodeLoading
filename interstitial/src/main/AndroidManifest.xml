@@ -14,7 +14,7 @@
 
         <activity
                 android:name=".InterstitialActivity"
-                android:labe="Interstitial" />
+                android:label="Interstitial" />
 
         <activity-alias
                 android:name="jp.fluct.fluctsdk.exmaple.android.gmamediation.dynamic.InterstitialActivityAlias"
