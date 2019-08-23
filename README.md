@@ -12,6 +12,6 @@ Android向けFluctSDKおよび当サンプルプロジェクトは下記環境�
 SDKバージョン
 
 - Google Mobile Ads: 16.0.0
-- FluctSDK: 5.6.0
-  - 動画リワードメディエーションアダプター: v2.6.0
-  - Google Mobile Ads向けカスタムイベント: v1.2.0
+- FluctSDK: 5.7.0
+  - 動画リワードメディエーションアダプター: v2.7.0
+  - Google Mobile Ads向けカスタムイベント: v1.3.0
