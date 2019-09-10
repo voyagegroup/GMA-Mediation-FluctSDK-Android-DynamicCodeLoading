@@ -24,7 +24,7 @@ repositories {
     jcenter()
 
     // region FluctSDK
-    maven { url 'https://raw.github.com/voyagegroup/FluctSDK-Android/master/m2/repository/' }
+    maven { url 'https://voyagegroup.github.com/FluctSDK-Android/m2/repository/' }
     // endregion
 
     // region FluctSDK Mediation
