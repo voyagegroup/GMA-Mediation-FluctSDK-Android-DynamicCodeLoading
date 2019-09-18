@@ -51,9 +51,9 @@ dependencies {
     // endregion
 
     // region FluctSDK Mediations
-    implementation 'com.maio:android-sdk:1.1.8'
-    implementation 'com.unity3d.ads:unity-ads:3.1.0'
-    implementation 'com.adcolony:sdk:3.3.7'
+    implementation 'com.maio:android-sdk:1.1.10'
+    implementation 'com.unity3d.ads:unity-ads:3.2.0'
+    implementation 'com.adcolony:sdk:3.3.11'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-maio:2.9.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-unityads:2.9.0'
     implementation 'jp.fluct.mediation:rewardedvideo-mediation-adcolony:2.9.0'
